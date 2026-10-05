@@ -5,14 +5,14 @@
 
 :root {
   /* Brand palette */
-  --navy: #0b2f4a;
-  --navy-dark: #071f31;
-  --navy-light: #133e60;
-  --teal: #0e9c93;
-  --teal-dark: #0b7d76;
-  --teal-light: #e6f7f6;
-  --green: #4caf7d;
-  --green-light: #eaf7ef;
+  --navy: #063f7c;
+  --navy-dark: #032c57;
+  --navy-light: #0a5aa8;
+  --teal: #0176d4;
+  --teal-dark: #015aa8;
+  --teal-light: #e6f2fc;
+  --green: #3aa0e8;
+  --green-light: #e8f4fd;
   --white: #ffffff;
   --offwhite: #f6f9fa;
   --gray-50: #f3f6f7;
@@ -221,18 +221,8 @@ section {
   font-size: 1.05rem;
   color: var(--navy-dark);
 }
-.brand-mark {
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
-  background: linear-gradient(135deg, var(--teal) 0%, var(--navy) 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--white);
-  font-weight: 800;
-  font-size: 1rem;
-}
+.brand-logo { height: 44px; width: auto; display: block; }
+.footer-brand .brand-logo { background: #fff; padding: 8px 12px; border-radius: 10px; height: 52px; }
 .brand-text .tagline {
   display: block;
   font-size: 0.68rem;
@@ -296,7 +286,7 @@ section {
   width: 420px;
   height: 420px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(14,156,147,0.35) 0%, rgba(14,156,147,0) 70%);
+  background: radial-gradient(circle, rgba(1,118,212,0.35) 0%, rgba(1,118,212,0) 70%);
 }
 .hero .container {
   position: relative;
